@@ -28,7 +28,7 @@ The solution with Docker is lighter than Vagrant on Linux, but the Docker contai
 
 Vagrant provisions the machine using Puppet, I needed to use three external modules:
 * [puppetlabs-vcsrepo](https://github.com/puppetlabs/puppetlabs-vcsrepo)
-* [uppetlabs-apache](https://github.com/puppetlabs/puppetlabs-apache)
+* [puppetlabs-apache](https://github.com/puppetlabs/puppetlabs-apache)
 * [puppetlabs-mysql](https://github.com/puppetlabs/puppetlabs-mysql/)
 
 
