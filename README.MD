@@ -1,14 +1,14 @@
 # DEXMA DevOps / System Engineer Test
 
-# Challenge
 
+# Challenge
 The challenge come by using a unique command we want to deploy all the required infrastructure for this awesome application written in Python using the Flask framework.
 
 # Requeriments
 * Virtualbox 5.1.20 
 * Vagrant 1.9.4
 ```Use vagrant -v to check your version
-
+```
 
 # Instructions
 * First, clone this repo
@@ -29,7 +29,7 @@ The solution with Docker is lighter than Vagrant on Linux, but the Docker contai
 
 Vagrant provisions the machine using Puppet, I needed to use three external modules:
 * [puppetlabs-vcsrepo](https://github.com/puppetlabs/puppetlabs-vcsrepo)
-* [uppetlabs-apache] (https://github.com/puppetlabs/puppetlabs-apache)
+* [uppetlabs-apache](https://github.com/puppetlabs/puppetlabs-apache)
 * [puppetlabs-mysql](https://github.com/puppetlabs/puppetlabs-mysql/)
 
 
