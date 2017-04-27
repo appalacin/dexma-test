@@ -1,0 +1,11 @@
+import sys
+import os
+
+os.environ.setdefault("MYSQL_USER", "<%= @mysql_user %>")
+os.environ.setdefault("MYSQL_PASS", "<%= @mysql_pass %>")
+os.environ.setdefault("MYSQL_DB", "<%= @mysql_db %>")
+os.environ.setdefault("MYSQL_HOST", "<%= @mysql_host %>")
+
+sys.path.append('/opt/apps/dexma-test')
+
+from app import app as application
