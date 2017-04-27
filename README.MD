@@ -7,14 +7,13 @@ The challenge come by using a unique command we want to deploy all the required 
 # Requeriments
 * Virtualbox 5.1.20 
 * Vagrant 1.9.4
-```Use vagrant -v to check your version
-```
+`Use vagrant -v to check your version`
 
 # Instructions
 * First, clone this repo
 * Second and finally, up the VM
 ```bash
-        $ vagrant up
+$ vagrant up
 ```
 
 # Testing
